@@ -1,0 +1,309 @@
+/*Browser data reset*/
+html,body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-size: cover;
+}
+
+
+body
+{
+	background: linear-gradient(230deg,rgba(0, 0, 0, 0),rgba(255, 155, 79, 0.5),rgba(255, 84, 238, 0.4),rgba(71, 201, 252, 0.5),rgba(166, 77, 255, 0.4),rgba(255,255,255, 0.6),rgba(255, 186, 133, 0.5));
+	font-family: arial;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container
+{
+	padding: 20px 25%;
+}
+
+.mobile_1
+{
+	overflow: hidden;
+	width: 260px;
+	height: 590px;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 40px;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 100, 0.1);
+	display: inline-block;
+}
+
+/* Homepage form style */
+
+form#homepage-search
+{
+	
+	padding:5px;
+	text-align:center;
+}
+form#homepage-search input
+{
+	width:81%;
+	border:0px solid red;
+	border-radius:10px;
+	font-size:15px;
+	padding:10px 25px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 100, 0.1);
+}
+
+form#homepage-search input:focus
+{
+	outline:none;
+}
+
+.mobile_2
+{
+	overflow: hidden;
+	width: 260px;
+	height: 590px;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 40px;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 100, 0.1);
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.table
+{
+	width: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	overflow: hidden;
+	border-radius: 20px;
+	color: #000;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+table
+{
+	width: 100%;
+	font-size: 12px;
+}
+
+thead tr
+{
+	background: rgba(255, 255, 255, 0.8);
+}
+td
+{
+	padding: 8px 0px;
+}
+
+.other_month
+{
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.today_date
+{
+	background: rgba(165, 61, 255, 1.0);
+	color: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.exam
+{
+	width: 100%;
+	height: auto;
+	background: rgba(255, 255, 255, 0.5);
+	overflow: hidden;
+	border-radius: 20px;
+	color: #000;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	margin-top: 10px;
+	padding: 10px 0px;
+}
+.exam .D
+{
+	float: left;
+	font-weight: bold;
+	color: #fff;
+	background: rgba(255, 115, 255, 1.0);
+	border-radius: 10px;
+	padding: 8px;
+	margin-left: 8px;
+	display: inline-block;
+}
+
+.exam .F
+{
+	float: left;
+	font-weight: bold;
+	color: #fff;
+	background: rgba(114, 63, 252, 1.0);
+	border-radius: 10px;
+	padding: 8px;
+	margin-left: 8px;
+	display: inline-block;
+}
+
+.exam .E
+{
+	float: left;
+	font-weight: bold;
+	color: #fff;
+	background: rgba(41, 223, 255, 1.0);
+	border-radius: 10px;
+	padding: 8px;
+	margin-left: 8px;
+	display: inline-block;
+}
+.exam p
+{
+	padding-left: 10px;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+}
+
+.exam h6
+{
+	width: 100%;
+	margin-top: -10px;
+	padding-left: 10px;
+	float: left;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+
+.book_svg
+{
+	width: 25px;
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.book_svg img
+{
+	width: 15px;
+}
+
+.exam_name
+{
+	float: left;
+	width: 120px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.exam_name h4
+{
+	margin-top: -1px;
+	text-align: left;
+}
+
+.exam_name h5
+{
+	color: rgba(0, 0, 0, 0.5);
+	margin-top: -10px;
+	text-align: left;
+}
+
+.dot
+{
+	float: right;
+	width: 10px;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.8);
+	padding-right: 10px;
+	margin-top: 15px;
+	margin-right: 15px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px rgba(0, 0, 100, 0.1);
+}
+
+.dot img
+{
+	width: 20px;
+}
+
+.mobile_1 .dot
+{
+	margin-top: 1px;
+}
+
+
+
+
+.footer
+{
+	width: 100%;
+	height: 50px;
+	background: rgba(255, 255, 255, 1.0);
+	margin-top: 10px;
+	margin-left: -8px;
+	padding: 8px 15px;
+	position: relative;
+}
+
+.footer1
+{
+	margin-top: -14px;
+}
+
+.footer_name
+{
+	color: rgba(0, 0, 0, 0.5);
+	margin-left: -15px;
+}
+
+.footer_name h6
+{
+	display: inline-block;
+	margin-top: -10px;
+	padding-right: 5px;
+	font-size: 10px;
+}
+
+.file
+{
+	width: 25px;
+	margin-right: 30px;
+	vertical-align: middle;
+	margin-left: 3px;
+}
+
+.summary
+{
+	width: 20px;
+	margin-right: 25px;
+	vertical-align: middle;
+}
+
+.calender
+{
+	width: 20px;
+	margin-right: 25px;
+	vertical-align: middle;
+}
+
+.message
+{
+	width: 30px;
+	margin-right: 25px;
+	vertical-align: middle;
+}
